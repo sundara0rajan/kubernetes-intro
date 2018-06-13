@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: backend
-        image: gcr.io/kubernetes-workshop-NDC/backend:cv-backend-1
+        image: gcr.io/active-complex-207113/backend:cv-backend-1
         ports:
         - containerPort: 5000
