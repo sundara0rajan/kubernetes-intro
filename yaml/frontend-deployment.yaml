@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: frontend
-        image: gcr.io/kubernetes-workshop-NDC/backend:cv-frontend-1
+        image: gcr.io/active-complex-207113/frontend:cv-frontend-1
         imagePullPolicy: Always
         ports:
         - containerPort: 8080
